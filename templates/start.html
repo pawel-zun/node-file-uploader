@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Upload plików</title>
+</head>
+  <body>
+    <div class="wrapper">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1>Wgraj plik</h1>
+        </div>
+        <div class="panel-body">
+          <form action="/upload" enctype="multipart/form-data" method="post">
+            <div class="form-group">
+              <label>Plik</label>
+              <input type="file" name="upload"><br>
+              <input class="btn btn-primary" type="submit" value="Wyślij">
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h1>Ostatni wgrany plik</h1>
+        </div>
+        <div class="panel-body">
+        </div>
+      </div>
+      !-->
+    </div>
+  </body>
+</html>
